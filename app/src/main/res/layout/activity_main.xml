@@ -6,21 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enviar"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="407dp" />
-
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextTextPersonName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Karla_Moscoso_Arrieta"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="331dp" />
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="376dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
